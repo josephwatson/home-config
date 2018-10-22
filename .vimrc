@@ -11,7 +11,10 @@ syntax on
 
 set hlsearch
 set listchars=tab:>-,trail:·
-colorscheme blue
+
+"set background=dark
+"colorscheme solarized
+colorscheme industry 
 
 noremap <F5> :NERDTreeToggle<CR>
 noremap <F6> :NERDTreeFind<CR>
